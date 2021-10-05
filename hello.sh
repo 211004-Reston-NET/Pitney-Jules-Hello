@@ -3,22 +3,22 @@
 echo Hello # <- This is a  Echo to display  Hello
 echo World
 
-echo
+echo #New line inserted for formatting
 
 msg="Hello World"
 
 echo $msg
 
-echo
+echo #New line inserted for formatting
 
 echo What is your name?
 read userInput
 
-echo
+echo #New line inserted for formatting
 
 echo Hello $userInput, Welcome to programming!
 
-echo
+echo #New line inserted for formatting
 
 #Control Flow
 #Types of Loops
@@ -29,21 +29,21 @@ do
 	echo This variable currently holds: $var
 done
 
-echo
+echo #New line inserted for formatting
 
 for i in {1..10..1} #{starting number..ending number..incrementing number}
 do
 echo $i
 done
 
-echo
+echo #New line inserted for formatting
 
 for words in  Hello World Test Hi What
 do
 echo $words
 done
 
-echo
+echo #New line inserted for formatting
 
 #While Loops - will reapeat until a condition is no longer true
 condition="true"
@@ -56,7 +56,7 @@ do
 
 done
 
-echo
+echo #New line inserted for formatting
 
 if [ 1 -eq 1 ]
 then 
